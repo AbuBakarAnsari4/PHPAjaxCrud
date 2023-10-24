@@ -1,0 +1,20 @@
+#pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    margin: 0 auto;
+    /* background: white; */
+
+  }
+  #pagination a{
+    text-decoration: none;
+    margin-left: 2px;
+    background-color: #007cf8;
+    color: white;
+    padding: 5px 10px;
+    margin-top: 20px;
+  }
+#pagination .active{
+    background-color: #0254a7;
+}
